@@ -1,18 +1,29 @@
 Multistage Dockerfile Example for Flask Application
+
+
 This repository demonstrates the use of a multistage Dockerfile to build and package a Flask backend application. Multistage builds are used to optimize the final Docker image size and improve security.
 
+
+
 Table of Contents
+
 Introduction
 Prerequisites
 Getting Started
 Usage
 Dockerfile Explanation
 Contributing
-License
+
+
+
 Introduction
+
 Modern application deployments often involve containerizing both the backend and frontend components. This project focuses on using a multistage Dockerfile to efficiently build a Flask backend application, creating a lightweight and secure Docker image.
 
+
+
 Prerequisites
+
 Docker: You need to have Docker installed on your machine. Visit Docker's official website to download and install Docker.
 Getting Started
 Clone this repository:
@@ -39,5 +50,4 @@ Stage 2: Final Image
 Use a minimal Python base image for the final image.
 Copy the built backend from Stage 1.
 Expose the necessary port and start the Flask application.
-Contributing
-Contributions are welcome! If you find any issues or want to improve this project, please open an issue or submit a pull request.
+pull request.
